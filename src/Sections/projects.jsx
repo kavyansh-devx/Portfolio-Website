@@ -149,7 +149,7 @@ export default function Projects() {
         }}
       />
 
-      <div className="sticky top-0 flex h-screen flex-col items-center justify-center overflow-hidden px-4 sm:px-8 z-20 relative">
+      <div className="sticky top-0 flex h-screen flex-col items-center justify-center px-4 sm:px-8 z-20 relative" style={{ overflow: 'hidden' }}>
         {/* Label */}
         <motion.h2
           className="mb-10 relative z-20 text-[24px] font-bold tracking-[0.18em] text-white/85 sm:mb-20"

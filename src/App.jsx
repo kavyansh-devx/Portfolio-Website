@@ -15,7 +15,7 @@ import IntroAnimation from './components/IntroAnimation'
 const App = () => {
   const [introDone, setIntroDone] = React.useState(false)
   return (
-    <div>
+    <div style={{ overflowX: 'clip', width: '100%', maxWidth: '100vw' }}>
       {!introDone && <IntroAnimation OnFinish={() => setIntroDone(true)} />}
       {introDone && (
         <div className='relative bg-linear-to-br from-black via-gray-900 to-black text-white min-h-screen'>

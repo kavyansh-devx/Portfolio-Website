@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'poppins', sans-serif;
-  overflow-x: hidden;
+  overflow-x: clip;
+  width: 100%;
 }
 h1 , h2{
   font-family: 'roboto', sans-serif;

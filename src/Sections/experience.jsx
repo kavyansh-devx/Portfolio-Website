@@ -129,7 +129,7 @@ const Experience = () => {
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  const sceneHeight = isMobile ? 200 * N : 150 * N;
+  const sceneHeight = isMobile ? 160 * N : 150 * N;
 
   const { scrollYProgress } = useScroll({
     target: sceneRef,
