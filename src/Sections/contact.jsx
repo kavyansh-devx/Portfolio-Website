@@ -232,7 +232,7 @@ const Contact = () => {
             {/* Info cards */}
             <div className="w-full max-w-sm mx-auto lg:mx-0 space-y-3">
               {[
-                { label: 'Email', value: 'kavyansh@example.com', emoji: '📬' },
+                { label: 'Email', value: 'tiwarikavyansh01@gmail.com', emoji: '📬' },
                 { label: 'Location', value: 'India 🇮🇳', emoji: '📍' },
                 { label: 'Status', value: 'Open to freelance', emoji: '🟢' },
               ].map((item, i) => (
