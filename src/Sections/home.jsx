@@ -107,7 +107,7 @@ Focused on clean design, smooth user experience, and real-world results, I turn 
               href="#projects">View My Work</a>
               <a 
               className='px-6 py-3 rounded-full text-lg font-medium text-black bg-white hover:bg-gray-200 shadow-lg hover:scale-105'
-              href="/Resume.pdf">My Resume</a>
+              href="/resume.pdf" target='_blank'>My Resume</a>
             </motion.div>
 
             <div className='mt-10 ml-2 flex gap-5 text-2xl md:text-3xl justify-center lg:justify-start'>
