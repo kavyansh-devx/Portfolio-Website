@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'poppins', sans-serif;
+  overflow-x: hidden;
+}
+h1 , h2{
+  font-family: 'roboto', sans-serif;
+}
+
+@layer utilities{
+  .greadient{
+    background: linear-gradient(45deg, #302b63, #00bf8f, #1cd8d2);
+    min-height: 100vh;
+    width: 100%;
+  }
+}
